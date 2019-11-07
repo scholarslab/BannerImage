@@ -25,7 +25,7 @@ return [
             // 'loop' => true,
             // 'draggable' => true,
             'title' => '',
-            // 'autoSlide' => false,
+            'altText' => '',
             'textStyle' => 'color: #FFF; font-size: 1.2rem; font-weight: 500; align-self: center; padding: 4rem; text-shadow: 0px 0px 15px #000;',
             'wrapStyle' => 'overflow-y: hidden;display: flex;flex-direction: column;justify-content: center;',
             'imgStyle' => '',

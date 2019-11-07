@@ -7,7 +7,7 @@
 	<div class="banner-image">
 	<?php
 		foreach ($urls as $url) {
-			$html = sprintf('<div class="banner-wrap" style="%s"><img class="banner-img" style="%s" src="%s"></div>', $wrapStyle, $imgStyle, $url);
+			$html = sprintf('<div class="banner-wrap" style="%s"><img class="banner-img" style="%s" src="%s" alt="%s"></div>', $wrapStyle, $imgStyle, $url, $altText);
 			echo $html;
 		}
 	?>

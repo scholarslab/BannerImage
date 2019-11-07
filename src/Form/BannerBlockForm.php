@@ -65,13 +65,14 @@ class BannerBlockForm extends Form
 			]
 		]);
 
-		// $this->add([
-		// 	'name' => 'o:block[__blockIndex__][o:data][autoSlide]',
-		// 	'type' => Element\Checkbox::class,
-        //     'options' => [
-		// 		'label' => 'Auto Slide',
-		// 	]
-		// ]);
+		$this->add([
+			'name' => 'o:block[__blockIndex__][o:data][altText]',
+			'type' => Element\Text::class,
+            'options' => [
+				'label' => 'Image Alt Text',
+				'info' => 'Enter Alt text for image.'
+			]
+		]);
 
 		$this->add([
 			'name' => 'o:block[__blockIndex__][o:data][textStyle]',
